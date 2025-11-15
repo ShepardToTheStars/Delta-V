@@ -1,0 +1,172 @@
+# Bigger dresser to fit all the drip
+- type: entity
+  parent: Dresser
+  id: DresserCommandLarge
+  suffix: Large, Command
+  components:
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,10,12
+
+- type: entity
+  id: DresserCaptainFilled
+  suffix: Filled, Captain
+  parent: DresserCommandLarge
+  components:
+  - type: StorageFill
+    contents:
+    # Jumpsuits
+    - id: ClothingUniformJumpsuitCaptain
+    - id: ClothingUniformJumpskirtCaptain
+    - id: ClothingUniformJumpsuitCapFormal
+    - id: ClothingUniformJumpskirtCapFormalDress
+    # Eyes
+    - id: ClothingEyesGlassesSunglasses
+    # Hats
+    - id: ClothingHeadHatCaptain
+    - id: ClothingHeadHatCapcap
+    - id: ClothingHeadHatBeretCap
+    # Cloaks
+    - id: ClothingNeckCloakCap
+    - id: ClothingNeckCloakCapFormal
+    - id: ClothingNeckMantleCap
+    # Outerwear
+    - id: ClothingOuterWinterCap
+    # Gloves
+    - id: ClothingHandsGlovesInspection
+    - id: ClothingHandsGlovesCaptain
+    # Shoes
+    - id: ClothingShoesLeather # fancy shoes for HoP and cap TODO: move to dresser
+    - id: ClothingShoesMiscWhite
+    - id: ClothingShoesBootsWinterCap
+    # Extras
+    - id: MedalCase # Moved from locker
+    - id: PlushieNuke
+      prob: 0.1
+      orGroup: captainfunloot
+    - id: BookGorlexGirlfriends
+      prob: 0.1
+      orGroup: captainfunloot
+
+- type: entity
+  id: DresserChiefEngineerFilled
+  parent: DresserCommandLarge
+  suffix: Filled, Chief Engineer
+  components:
+  - type: StorageFill
+    contents:
+      # Jumpsuits
+      - id: ClothingUniformJumpsuitChiefEngineer
+      - id: ClothingUniformJumpskirtChiefEngineer
+      - id: ClothingUniformJumpsuitChiefEngineerTurtle
+      - id: ClothingUniformJumpskirtChiefEngineerTurtle
+      # Head
+      - id: ClothingHeadHatHardhatWhite
+      - id: ClothingHeadHatBeretEngineering
+      # Cloaks
+      - id: ClothingNeckCloakCe
+      - id: ClothingNeckMantleCE
+      # Outerwear
+      - id: ClothingOuterWinterCE
+      # Gloves
+      - id: ClothingHandsGlovesColorYellow # I know its a bit weird for CEs to put work gloves in their dresser but they already start with them in the loadout so lets just move them
+      # Shoes
+      - id: ClothingShoesColorBrown
+      - id: ClothingShoesBootsWinterChiefEngineer
+
+- type: entity
+  id: DresserChiefMedicalOfficerFilled
+  parent: DresserCommandLarge
+  suffix: Filled, Chief Medical Officer
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingNeckMantleCMO
+      - id: ClothingCloakCmo
+      - id: ClothingOuterCoatLabCmo
+      - id: ClothingUniformJumpsuitCMOTurtle
+      - id: ClothingUniformJumpskirtCMOTurtle
+      - id: ClothingHeadHatBeretCmo
+      - id: ClothingHeadMirror
+      - id: ClothingEyesGlasses
+      - id: ClothingOuterWinterCMO
+
+- type: entity
+  id: DresserHeadOfPersonnelFilled
+  parent: DresserCommandLarge
+  suffix: Filled, Head Of Personnel
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingNeckMantleHOP
+      - id: ClothingNeckCloakHop
+      - id: ClothingHeadHatHopcap
+      - id: ClothingHeadHatBeretHop
+      - id: ClothingOuterWinterHoP
+      - id: ClothingEyesGlasses
+
+- type: entity
+  id: DresserHeadOfSecurityFilled
+  parent: DresserCommandLarge
+  suffix: Filled, Head Of Security
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingNeckMantleHOS
+      - id: ClothingHeadHatBeretHoS
+      - id: ClothingHeadHatHoshat
+      - id: ClothingNeckCloakHos
+#      - id: ClothingUniformJumpskirtHoSAlt # DeltaV - removed for incongruence
+#      - id: ClothingUniformJumpsuitHoSAlt # DeltaV - removed for incongruence
+      - id: ClothingUniformJumpskirtHosFormal
+      - id: ClothingUniformJumpsuitHosFormal
+#      - id: ClothingOuterWinterHoS # DeltaV - removed for incongruence
+      - id: ClothingOuterCoatStasecHoS # DeltaV - add winter coat
+      - id: ClothingShoesBootsWinterHeadOfSecurity # DeltaV - add HoS winter boots
+
+- type: entity
+  id: DresserQuarterMasterFilled
+  parent: DresserCommandLarge
+  suffix: Filled, Quarter Master
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingNeckCloakQm
+      - id: ClothingHeadHatBeretQM
+      - id: ClothingUniformJumpsuitQMFormal
+      - id: ClothingUniformJumpskirtQMFormal # DeltaV - Formal dresses
+      - id: ClothingUniformJumpsuitQMTurtleneck
+      - id: ClothingUniformJumpskirtQMTurtleneck
+      - id: ClothingHandsGlovesColorBrown
+      - id: ClothingNeckMantleQM
+      - id: ClothingOuterWinterQM
+
+- type: entity
+  id: DresserResearchDirectorFilled
+  parent: DresserCommandLarge
+  suffix: Filled, Research Director
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingNeckMantleRD
+      - id: ClothingNeckCloakMystagogue # DeltaV - ClothingNeckCloakRd replaced in favour of Delta variant
+      - id: ClothingHeadHatBeretRND
+      - id: ClothingHandsGlovesColorPurple
+      - id: ClothingEyesGlasses
+      - id: ClothingOuterWinterRD
+      - id: ClothingOuterCoatRD
+
+- type: entity
+  id: DresserWardenFilled
+  parent: DresserCommandLarge
+  suffix: Filled, Warden
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingHeadHatWarden
+      - id: ClothingHeadHatBeretWarden
+      - id: ClothingUniformJumpskirtWarden
+      - id: ClothingUniformJumpsuitWarden
+      - id: ClothingOuterCoatStasecWarden # DeltaV - add winter coat
+      - id: ClothingShoesBootsWinterSec # DeltaV - add winter boots

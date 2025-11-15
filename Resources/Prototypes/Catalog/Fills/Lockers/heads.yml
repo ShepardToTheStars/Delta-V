@@ -48,11 +48,11 @@
     - id: ClothingOuterArmorCaptainCarapace
     - id: CommsComputerCircuitboard
     - id: DoorRemoteCustom
-    - id: MedalCase
+    #- id: MedalCase # DeltaV - Moved to dresser
     - id: NukeDisk
     - id: PinpointerNuclear
-    - id: PlushieNuke
-      prob: 0.1
+    #- id: PlushieNuke # DeltaV - Moved to dresser
+    #  prob: 0.1
     - id: RubberStampCaptain
     - id: SpaceCash1000
     - id: WeaponDisabler
@@ -172,7 +172,7 @@
       prob: 0.15
     - id: ClothingBeltChiefEngineerFilled
     - id: ClothingEyesGlassesMeson
-    - id: ClothingHandsGlovesColorYellow
+    #- id: ClothingHandsGlovesColorYellow # DeltaV - Moved to dresser
     - id: ClothingHeadsetAltEngineering
     - id: DoorRemoteEngineering
     - id: CargoRequestEngineeringComputerCircuitboard
