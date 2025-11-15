@@ -108,6 +108,7 @@
     contents:
       - id: CommsComputerCircuitboard
       - id: StationRecordsComputerCircuitboard
+      - id: FundingAllocationComputerCircuitboard # DeltaV
 
 - type: entity
   name: circuit tote [CMO]

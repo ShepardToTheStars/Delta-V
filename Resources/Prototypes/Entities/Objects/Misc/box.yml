@@ -46,7 +46,7 @@
   - type: Storage
     maxItemSize: Small
     grid:
-    - 0,0,5,2
+    - 0,0,5,3 # DeltaV - was 0,0,5,2 but LO has too many boards
     whitelist:
       components:
       - MachineBoard

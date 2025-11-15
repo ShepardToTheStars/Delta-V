@@ -52,3 +52,4 @@
   - Multitool # Unpacking flatpacks, linking cloning or doors
   - HandheldGPSBasic # Parameds and Sec uses these
   - HandheldStationMap # Sure, why not
+  - MicroManipulatorStockPart # Because heads start with machine boards
