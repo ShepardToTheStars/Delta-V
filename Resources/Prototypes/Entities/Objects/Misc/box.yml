@@ -50,7 +50,8 @@
     whitelist:
       components:
       - MachineBoard
-      - Circuitboard
+      # - Circuitboard # DeltaV - NYI
+      - ComputerBoard # DeltaV
   - type: Construction
     graph: ToteBase
     node: totebase

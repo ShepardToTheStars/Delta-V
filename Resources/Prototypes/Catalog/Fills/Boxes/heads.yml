@@ -11,8 +11,12 @@
       - id: CargoSaleComputerCircuitboard
       - id: CargoShuttleConsoleCircuitboard
       - id: SalvageMagnetMachineCircuitboard
-      - id: SalvageJobBoardComputerCircuitboard
+      # - id: SalvageJobBoardComputerCircuitboard # DeltaV - unneeded mechanic with mining points vendor
       - id: MailTeleporterMachineCircuitboard
+      - id: LogisticsTechFabCircuitboard # DeltaV
+      - id: MiningShuttleConsoleCircuitboard # DeltaV
+      - id: SalvageExpeditionsComputerCircuitboard # DeltaV
+      - id: FundingAllocationComputerCircuitboard # DeltaV - To be removed when it's in techvault on all maps
 
 - type: entity
   name: stamp box [QM]
@@ -49,8 +53,9 @@
   - type: StorageFill
     contents:
       - id: IDComputerCircuitboard
-      - id: FundingAllocationComputerCircuitboard
+      # - id: FundingAllocationComputerCircuitboard # DeltaV - HoP doesn't get funding access
       - id: CargoRequestServiceComputerCircuitboard
+      - id: ServiceTechFabCircuitboard # DeltaV
 
 - type: entity
   name: stamp box [HoP]
@@ -91,6 +96,7 @@
       - id: AtmosMonitoringComputerCircuitboard
       - id: PowerComputerCircuitboard
       - id: SolarControlComputerCircuitboard
+      - id: EngineeringTechFabCircuitboard # DeltaV
 
 - type: entity
   name: circuit tote [Captain]
@@ -113,6 +119,8 @@
     contents:
       - id: MedicalTechFabCircuitboard
       - id: CargoRequestMedicalComputerCircuitboard
+      - id: MedicalBiofabMachineBoard # DeltaV
+      - id: AutoclaveMachineCircuitboard # DeltaV
 
 - type: entity
   name: circuit tote [RD]
@@ -123,13 +131,14 @@
   - type: StorageFill
     contents:
       - id: CircuitImprinterMachineCircuitboard
-      - id: ProtolatheMachineCircuitboard
+      #- id: ProtolatheMachineCircuitboard # DeltaV - Replaced by EpistemicsTechFabCircuitboard
       - id: ResearchComputerCircuitboard
       - id: CargoRequestScienceComputerCircuitboard
-      - id: RoboticsConsoleCircuitboard
+      #- id: RoboticsConsoleCircuitboard # DeltaV - Disabled
       - id: AnalysisComputerCircuitboard #Because sometimes round start artis just fucking explode on the pad.
       - id: ArtifactAnalyzerMachineCircuitboard
-      - id: StationAiFixerCircuitboard
+      #- id: StationAiFixerCircuitboard # DeltaV - NYI
+      - id: EpistemicsTechFabCircuitboard # DeltaV
 
 - type: entity
   name: circuit tote [HoS]

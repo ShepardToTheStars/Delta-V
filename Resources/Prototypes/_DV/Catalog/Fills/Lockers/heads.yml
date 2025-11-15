@@ -8,11 +8,7 @@
     - id: BoxPDACargo
     - id: QuartermasterIDCard
     - id: ClothingShoesBootsWinterLogisticsOfficer
-    - id: MiningShuttleConsoleCircuitboard
     - id: StockTradingCartridge
-    - id: LogisticsTechFabCircuitboard
-    - id: SalvageExpeditionsComputerCircuitboard
-    - id: FundingAllocationComputerCircuitboard # To be removed when it's in techvault on all maps
     - id: LunchboxCommandFilledRandom
       prob: 0.3
 
@@ -40,7 +36,6 @@
     - id: ClothingShoesBootsLaceup
     - id: ClothingShoesMiscWhite
     - id: ClothingShoesBootsWinterHeadOfPersonel
-    - id: ServiceTechFabCircuitboard
     - id: LunchboxCommandFilledRandom
       prob: 0.3
 
@@ -50,7 +45,6 @@
     children:
     - id: BoxPDAEngineering
     - id: CEIDCard
-    - id: EngineeringTechFabCircuitboard
     - id: LunchboxCommandFilledRandom
       prob: 0.3
 
@@ -78,7 +72,6 @@
     - id: RDIDCard
     - id: BoxFolderRdClipboard
     - id: ClothingShoesBootsWinterMystagogue
-    - id: EpistemicsTechFabCircuitboard
     - id: LunchboxCommandFilledRandom
       prob: 0.3
     - id: CosmicCenser
