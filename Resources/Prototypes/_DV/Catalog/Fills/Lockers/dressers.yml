@@ -61,7 +61,7 @@
       - id: ClothingUniformJumpskirtChiefEngineer
       - id: ClothingUniformJumpsuitChiefEngineerTurtle
       - id: ClothingUniformJumpskirtChiefEngineerTurtle
-      # Head
+      # Hats
       - id: ClothingHeadHatHardhatWhite
       - id: ClothingHeadHatBeretEngineering
       # Cloaks
@@ -82,15 +82,28 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingNeckMantleCMO
-      - id: ClothingCloakCmo
-      - id: ClothingOuterCoatLabCmo
+      # Jumpsuits
+      - id: ClothingUniformJumpsuitCMO
+      - id: ClothingUniformJumpskirtCMO
       - id: ClothingUniformJumpsuitCMOTurtle
       - id: ClothingUniformJumpskirtCMOTurtle
+      # Hats
       - id: ClothingHeadHatBeretCmo
       - id: ClothingHeadMirror
+      # Eyes
       - id: ClothingEyesGlasses
+      # Cloak
+      - id: ClothingNeckMantleCMO
+      - id: ClothingCloakCmo
+      # Outerwear
+      - id: ClothingOuterCoatLabCmo
       - id: ClothingOuterWinterCMO
+      # Gloves
+      - id: ClothingHandsGlovesNitrile
+      - id: ClothingHandsGlovesLatex
+      # Shoes
+      - id: ClothingShoesBootsWinterChiefMedicalOfficer
+      - id: ClothingShoesColorWhite
 
 - type: entity
   id: DresserHeadOfPersonnelFilled
@@ -99,12 +112,34 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingNeckMantleHOP
-      - id: ClothingNeckCloakHop
-      - id: ClothingHeadHatHopcap
+      # Jumpsuits
+      - id: ClothingUniformJumpsuitHoP
+      - id: ClothingUniformJumpskirtHoP
+      - id: ClothingUniformJumpsuitHoPMess
+      - id: ClothingUniformJumpskirtHoPMess
+      - id: ClothingUniformJumpsuitBoatswain
+      - id: ClothingUniformJumpsuitHoPFormal
+      - id: ClothingUniformJumpskirtHoPFormal
+      # Hats
       - id: ClothingHeadHatBeretHop
-      - id: ClothingOuterWinterHoP
+      - id: ClothingHeadHatHopcap
+      # Eyes
       - id: ClothingEyesGlasses
+      # Cloak
+      - id: ClothingNeckCloakHop
+      - id: ClothingNeckMantleHOP
+      - id: ClothingNeckGoldmedal
+      # Outerwear
+      - id: ClothingOuterWinterHoP
+      - id: ClothingOuterCoatHoPFormal
+      # Gloves
+      - id: ClothingHandsGlovesInspection
+      - id: ClothingHandsGlovesHop
+      # Shoes
+      - id: ClothingShoesBootsLaceup
+      - id: ClothingShoesMiscWhite
+      - id: ClothingOuterWinterHoP
+      - id: ClothingShoesBootsWinterHeadOfPersonel
 
 - type: entity
   id: DresserHeadOfSecurityFilled

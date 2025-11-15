@@ -15,6 +15,9 @@
       - id: BoneGel # Shitmed Change
       - id: NitrousOxideTankFilled # DeltaV - add anesthesia
       - id: SoapNT # DeltaV - add soap
+      - id: ClothingHandsGlovesNitrile # DeltaV - Add gloves
+      - id: ClothingMaskSterile # DeltaV - Add sterile mask
+      - id: ClothingMaskBreathMedical # DeltaV - Add medical mask because N2O
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateMedicalBundle

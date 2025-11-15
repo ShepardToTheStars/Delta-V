@@ -117,13 +117,13 @@
     - !type:NestedSelector # DeltaV
       tableId: LockerFillHeadOfPersonnelDeltaV
     - id: AccessConfigurator
-    - id: BoxEncryptionKeyPassenger
+    #- id: BoxEncryptionKeyPassenger # DeltaV - PTech Vendor has these
     - id: BoxEncryptionKeyService
-    - id: BoxHeadset
+    #- id: BoxHeadset # DeltaV - PTech Vendor has these
     - id: BoxHoPCircuitboards
     - id: BoxHoPStamps
-    - id: BoxID
-    - id: BoxPDA
+    # - id: BoxID # DeltaV - PTech Vendor has these
+    #- id: BoxPDA # DeltaV - PTech Vendor has these
     - id: CigarGoldCase
       prob: 0.25
       # Fuck the HoP they don't deserve fucking cigars.
@@ -131,7 +131,7 @@
     - id: ClothingBackpackIan
       prob: 0.5
     - id: ClothingHeadsetAltService # DeltaV - HoP is now a service role, replaces their all channels headset.
-    - id: ClothingNeckGoldmedal
+    # - id: ClothingNeckGoldmedal # DeltaV - Moved to dresser
     - id: DoorRemoteService
     - id: HoPIDCard
     #- id: WeaponDisabler # DeltaV - There is no reason for the service head to have a disabler.
@@ -215,12 +215,12 @@
       tableId: LockerFillChiefMedicalOfficerDeltaV
     - id: BoxEncryptionKeyMedical
     - id: ClothingBackpackDuffelSurgeryFilled
-    - id: ClothingCloakCmo
+    #- id: ClothingCloakCmo # DeltaV - Moved to dresser
     - id: ClothingEyesHudMedical
-    - id: ClothingHandsGlovesNitrile
-    - id: ClothingHeadHatBeretCmo
+    #- id: ClothingHandsGlovesNitrile # DeltaV - moved to dresser and surgery bag
+    #- id: ClothingHeadHatBeretCmo # DeltaV - moved to dresser
     - id: ClothingHeadsetAltMedical
-    - id: ClothingMaskSterile
+    #- id: ClothingMaskSterile - moved to dresser and surgery bag
     - id: DoorRemoteMedical
     - id: HandheldCrewMonitor
     - id: Hypospray
@@ -228,8 +228,6 @@
     - id: MedkitFilled
     - id: RubberStampCMO
     - id: MedTekCartridge
-    # Shitmed
-    #- id: MedicalBiofabMachineBoard #DeltaV - Replaced with a flatpack at Prototypes/_DV/Catalog/Fills/Lockers/heads.yml
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
