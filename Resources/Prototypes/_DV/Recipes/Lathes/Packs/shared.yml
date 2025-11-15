@@ -42,3 +42,13 @@
   - CellRechargerCircuitboard
   - WeaponCapacitorRechargerCircuitboard
   - FreezerElectronics
+
+- type: latheRecipePack
+  id: SimpleToolsStaticDeltaV # Since we removed the autolathe, let medical and sec print some basic tools
+  recipes:
+  - Screwdriver # Opening vends like SecVend or ChemVend
+  - Wrench # Wrenching cans for cryo or anchoring generators
+  - CrowbarGreen #
+  - Multitool # Unpacking flatpacks, linking cloning or doors
+  - HandheldGPSBasic # Parameds and Sec uses these
+  - HandheldStationMap # Sure, why not

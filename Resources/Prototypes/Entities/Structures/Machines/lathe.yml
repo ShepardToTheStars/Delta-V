@@ -440,6 +440,7 @@
     - SecurityAmmoStatic
     - SecurityWeaponsStatic
     # Being DeltaV Additions
+    - SimpleToolsStaticDeltaV
     - ReportingStatic
     - SecurityRubberAmmoStatic
     - PrisonerSoftsuits
@@ -534,6 +535,7 @@
     - EmptyMedkitsStatic
     - SurgeryStatic
     # Being DeltaV Additions
+    - SimpleToolsStaticDeltaV
     - ReportingStatic
     - EVASuit
     - PowerCellsStatic
