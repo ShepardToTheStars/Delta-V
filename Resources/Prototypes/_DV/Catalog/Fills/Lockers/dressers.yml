@@ -7,7 +7,7 @@
   - type: Storage
     maxItemSize: Huge
     grid:
-    - 0,0,10,12
+    - 0,0,10,12 # What kind of dresser is smaller than a duffle bag. Let's fix this.
 
 - type: entity
   id: DresserCaptainFilled
@@ -148,17 +148,34 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingNeckMantleHOS
-      - id: ClothingHeadHatBeretHoS
-      - id: ClothingHeadHatHoshat
-      - id: ClothingNeckCloakHos
-#      - id: ClothingUniformJumpskirtHoSAlt # DeltaV - removed for incongruence
-#      - id: ClothingUniformJumpsuitHoSAlt # DeltaV - removed for incongruence
+      # Jumpsuits
       - id: ClothingUniformJumpskirtHosFormal
       - id: ClothingUniformJumpsuitHosFormal
-#      - id: ClothingOuterWinterHoS # DeltaV - removed for incongruence
-      - id: ClothingOuterCoatStasecHoS # DeltaV - add winter coat
-      - id: ClothingShoesBootsWinterHeadOfSecurity # DeltaV - add HoS winter boots
+      - id: ClothingUniformJumpskirtHoSAlt
+      - id: ClothingUniformJumpsuitHoSAlt
+      # Hats
+      - id: ClothingHeadHatBeretHoS
+      - id: ClothingHeadHatHoshat
+      # Mask
+      - id: ClothingMaskNeckGaiter
+      # Eyes
+      - id: ClothingEyesGlassesSunglasses
+      # Cloak
+      - id: ClothingNeckCloakHos
+      - id: ClothingNeckMantleHO
+      # Outerwear
+      - id: ClothingOuterCoatStasecHoS
+      - id: ClothingOuterCoatHoSTrench
+      #- id: ClothingOuterWinterHoS # DeltaV - removed for incongruence
+      # Gloves
+      - id: ClothingHandsGlovesCombat
+      - id: ClothingHandsGlovesForensic
+      # Shoes
+      - id: ClothingShoesBootsWinterHeadOfSecurity
+      - id: ClothingShoesBootsJack
+      # Extras
+      - id: BookSpaceLaw
+      - id: CigarGoldCase
 
 - type: entity
   id: DresserQuarterMasterFilled
@@ -170,7 +187,7 @@
       - id: ClothingNeckCloakQm
       - id: ClothingHeadHatBeretQM
       - id: ClothingUniformJumpsuitQMFormal
-      - id: ClothingUniformJumpskirtQMFormal # DeltaV - Formal dresses
+      - id: ClothingUniformJumpskirtQMFormal
       - id: ClothingUniformJumpsuitQMTurtleneck
       - id: ClothingUniformJumpskirtQMTurtleneck
       - id: ClothingHandsGlovesColorBrown
@@ -199,9 +216,23 @@
   components:
   - type: StorageFill
     contents:
-      - id: ClothingHeadHatWarden
-      - id: ClothingHeadHatBeretWarden
+      # Jumpsuits
       - id: ClothingUniformJumpskirtWarden
       - id: ClothingUniformJumpsuitWarden
-      - id: ClothingOuterCoatStasecWarden # DeltaV - add winter coat
-      - id: ClothingShoesBootsWinterSec # DeltaV - add winter boots
+      # Hats
+      - id: ClothingHeadHatWarden
+      - id: ClothingHeadHatBeretWarden
+      # Eyes
+      - id: ClothingEyesGlassesSunglasses
+      # Outerwear
+      - id: ClothingOuterCoatStasecWarden
+      #- id: ClothingOuterWinterHoS # DeltaV - removed for incongruence
+      #- id: ClothingOuterCoatWarden # DeltaV - removed for incongruence
+      #- id: ClothingOuterWinterWarden # DeltaV - removed for incongruence
+      # Gloves
+      - id: ClothingHandsGlovesCombat
+      # Shoes
+      - id: ClothingShoesBootsWinterSec
+      - id: ClothingShoesBootsJack
+      # Extras
+      - id: BookSpaceLaw

@@ -325,16 +325,16 @@
       tableId: LockerFillHeadOfSecurityDeltaV
     - id: BookSecretDocuments
     # - id: WeaponEnergyShotgun # DeltaV - Moved to warden locker
-    - id: BookSpaceLaw
+    #- id: BookSpaceLaw # DeltaV - Moved to dresser
     - id: BoxEncryptionKeySecurity
-    - id: CigarGoldCase
-      prob: 0.50
+    #- id: CigarGoldCase # DeltaV - Moved to dresser
+    #  prob: 0.50
     - id: ClothingBeltSecurityFilled
     - id: ClothingEyesGlassesSecurity
     - id: ClothingHeadsetAltSecurity
-    - id: ClothingMaskNeckGaiter
-    - id: ClothingOuterCoatHoSTrench
-    - id: ClothingShoesBootsJack
+    #- id: ClothingMaskNeckGaiter # DeltaV - Moved to dresser
+    #- id: ClothingOuterCoatHoSTrench # DeltaV - Moved to dresser
+    #- id: ClothingShoesBootsJack # DeltaV - Moved to dresser
     - id: DoorRemoteSecurity
     - id: HoloprojectorSecurity
     - id: RubberStampHos
